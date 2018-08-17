@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DynamicForm</string>
+    <string name="info_no_form">No Template is Available.</string>
+    <string name="toast_no_internet">Please enable internet for latest data.</string>
+    <string name="log_service_handler">"ServiceHandler : "</string>
+    <string name="log_data_not_available">"Data Not Available."</string>
+    <string name="error_json_data">\"JSON data error!\"</string>
+    <string name="log_not_get_url">not get url</string>
+    <string name="log_result">log result</string>
+    <string name="log_unable_to_fetch">Unable to fetch</string>
+</resources>

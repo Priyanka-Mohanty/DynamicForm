@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Active">
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorTextRegular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonPositive">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_ssmall</item>
+        <item name="android:layout_marginRight">@dimen/margin_ssmall</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/btn_positive</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="ButtonNegative">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_ssmall</item>
+        <item name="android:layout_marginRight">@dimen/margin_ssmall</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/btn_negative</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+</resources>

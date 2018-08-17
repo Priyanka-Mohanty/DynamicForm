@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_edittext_input_ten_length">10</integer>
+    <integer name="max_edittext_input_twenty_length">20</integer>
+    <integer name="max_edittext_input_seven_length">7</integer>
+    <integer name="max_edittext_input_fifteen_length">15</integer>
+</resources>
