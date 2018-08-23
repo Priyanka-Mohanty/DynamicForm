@@ -1,12 +1,20 @@
 <?php
-echo $_FILES['FileName']['name'] . '<br/>';
-  //ini_set('upload_max_filesize', '1000000M');
-  $target_path = "uploads/";
-  $target_path = $target_path . basename($_FILES['FileName']['name']);
-  try {
-   if (!move_uploaded_file($_FILES['FileName']['tmp_name'], $target_path)) {
-  throw new Exception('Could not move file');
-  }
+$file_path = "uploads/";
+
+$file_path = $file_path . basename( $_FILES['FileName']['name']);
+    if(move_uploaded_file($_FILES['FileName']['tmp_name'], $file_path)) {
+        $result = array("result" => "success");
+    } else{
+        $result = array("result" => "error");
+    }
+// echo $_FILES['FileName']['name'] . '<br/>';
+  // //ini_set('upload_max_filesize', '1000000M');
+  // $target_path = "uploads/";
+  // $target_path = $target_path . basename($_FILES['FileName']['name']);
+  // try {
+   // if (!move_uploaded_file($_FILES['FileName']['tmp_name'], $target_path)) {
+  // throw new Exception('Could not move file');
+  // }
 
  echo "Image uploaded";
   } catch (Exception $e) {
